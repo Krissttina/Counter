@@ -1,6 +1,8 @@
-README
+README file
 
-Description: 
+# Counter
+
+## Description: 
 
 Represents a web site that contains a box in the middle of the screen. 
 This field has a number and below it are the buttons with which the number can be increased/decreased or reset at any time. 

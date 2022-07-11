@@ -1,4 +1,4 @@
-README file
+<<<<<<< HEAD README file
 
 # Counter
 
@@ -11,3 +11,6 @@ This field has a number and below it are the buttons with which the number can b
 Instructions: 
 
 When you click any of the buttons the number will change its value depending on which button has been clicked.  
+=======
+
+>>>>>>> 96ee5f74e5ec582352d615308be044e9d5d2fbb2

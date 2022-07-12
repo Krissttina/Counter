@@ -1,9 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-body{
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +14,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.conteiner{ 
+.box{ 
     display: flex;
     flex-direction: column;
     max-width: 80%;
@@ -24,27 +26,58 @@ body{
     align-items: center;  
 }
 
-h1{
+  .container {
+    display: flex;
     justify-content: center;
-}
-
-span{
-    font-size: 100px;
-}
-
-button{
-    margin-top: 10px;
-    border: 1px solid black;
-    outline: none;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    height: 25px;
-    padding: 0 15px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    align-items: center;
+    flex-direction: column;
   }
-
-  button:hover{
-    background-color: rgb(58, 112, 47);
+  
+  span {
+    font-size: 100px;
+    padding: 10px;
+    color: grey;
+  }
+  
+  .btn {
+    background: none;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  .up {
+    animation: up 0.5s ease;
+    position: relative;
+  }
+  
+  .down {
+    animation: down 0.5s ease;
+    position: relative;
+  }
+  
+  @keyframes up {
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: -20px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  
+  @keyframes down {
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 20px;
+    }
+    100% {
+      top: 0px;
+    }
   }

@@ -9,3 +9,7 @@ This field has a number and below it are the buttons with which the number can b
 ## Instructions: 
 
 When you click any of the buttons the number will change its value depending on which button has been clicked.  
+
+![review](counter.png)
+
+~Last update 25.04.2023

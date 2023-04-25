@@ -1,15 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Rubik", sans-serif;
-  }
+*{
+  margin: 0;
+  padding: 0;
+}
   
-  body{
-    display: flex;
-    justify-content: center;
-    background: #FFD687;
-    height: 100vh;
+body{
+  display: flex;
+  justify-content: center;
+  background: #FFD687;
+  height: 100vh;
   align-items: center; 
 }
 
@@ -21,7 +19,6 @@ section{
   padding: 30px;
   box-shadow: 0px 13px 30px -17px rgba(0,0,0,0.75);
   align-items: center; 
-  
 }
   
 p{
@@ -39,46 +36,3 @@ button{
 button:hover{
   background: #FFD687;
 }
-
-  .btn {
-    background: none;
-    outline: none;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 5px;
-  }
-  
-  .up {
-    animation: up 0.5s ease;
-    position: relative;
-  }
-  
-  .down {
-    animation: down 0.5s ease;
-    position: relative;
-  }
-  
-  @keyframes up {
-    0% {
-      top: 0px;
-    }
-    50% {
-      top: -20px;
-    }
-    100% {
-      top: 0px;
-    }
-  }
-  
-  @keyframes down {
-    0% {
-      top: 0px;
-    }
-    50% {
-      top: 20px;
-    }
-    100% {
-      top: 0px;
-    }
-  }
